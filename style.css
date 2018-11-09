@@ -1,0 +1,88 @@
+body{
+  background-color:#0971B2;
+  color:#fff;
+}
+
+.header{
+  display: inline-block;
+  text-align: center;
+  background:#0971B2;
+  padding-top: 100px;
+  height: 150px;
+  width: 70%;
+}
+
+.myself{
+  position: absolute;
+  top:0px;
+  right: 5px;
+  width: 30%;
+  text-align: center;
+  background:#0971B2;
+  }
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.rightlist{
+text-align: left;
+}
+
+.leftlist{
+  text-align: left;
+}
+
+.left-column,  .right-column {
+  border: 5px solid #fff;
+  background-color: #1485CC;
+}
+
+.dot{
+  padding-left: 25px;
+  padding-bottom: 0px;
+}
+
+.flag{
+  display: inline-block;
+}
+
+.belgium{
+ text-align: center;
+ display: inline-block;
+}
+
+.england{
+  text-align: center;
+  display: inline-block;
+}
+.france{
+    text-align: center;
+    display: inline-block;
+  }
+
+/* icon - size */
+  .fa-linkedin, .fa-github-square, .fa-facebook{
+  font-size: 50px;
+  color: white;
+  padding-left: 5px;
+}
+
+/*list icon*/
+.fa-circle{
+  font-size: 15px;
+  color: #fff;
+  padding: 2px;
+}
+
+span{
+  padding-left: 250px;
+  border-bottom: 10px solid #fff;
+  padding-right: 10;
+}
+
+h3{
+  background-color: #1485CC;
+  margin-top: 10;
+}
